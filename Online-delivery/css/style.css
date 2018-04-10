@@ -1,8 +1,8 @@
-/* Getting the new tags to behave */
+
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline;}
 
-/* Global properties ======================================================== */
+
 html {width:100%;}
 body {font-family:Arial, Helvetica, sans-serif;font-size:100%; color:#7f7f7f;min-width:960px;background:#000}
 .ic {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
@@ -61,7 +61,7 @@ p {margin-bottom:18px;}
 
 .img-border {border:10px solid #fff;}
 
-/*********************************boxes**********************************/
+
 .indent {padding:20px;}
 .indent-left {padding-left:10px;}
 .indent-right {padding-right:50px;}
@@ -87,7 +87,7 @@ p {margin-bottom:18px;}
 .button-2,
 h1 a {text-decoration:none;}	
 
-/*********************************header*************************************/
+
 header {
 	width:100%;
 	background:#f2f2f2;
@@ -126,7 +126,7 @@ h2 {
 	h2 span {color:#000;}
 	#page1 h2 {margin-bottom:9px;}
 	
-/***** menu *****/
+
 .menu {
 	padding:26px 10px 0 0; 
 	float:right;
@@ -154,7 +154,6 @@ h2 {
 	background:url(../images/row-bot-bg.jpg) center top no-repeat;
 }
 
-/***** slider *****/
 .slider-wrapper {
 	width:940px;
 	height:466px;
@@ -189,7 +188,6 @@ h2 {
 	.pagination li.current a,
 	.pagination a:hover {background-position:left top;}
 
-/*********************************content*************************************/
 #content {
 	width:100%; 
 	padding:15px 0 50px;
