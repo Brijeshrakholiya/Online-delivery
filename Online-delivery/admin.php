@@ -83,7 +83,7 @@ else
         </div>
     </section>
     
-	<!--==============================footer=================================-->
+
     <footer>
         <div class="main">
         	<div class="aligncenter">
