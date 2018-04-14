@@ -32,6 +32,7 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+	margin:25px;
 }
 table, table td { 
 	padding:0;
