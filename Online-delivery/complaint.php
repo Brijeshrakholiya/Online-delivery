@@ -14,7 +14,7 @@
 	
 </head>
 <body id="page6">
-	<!--==============================header=================================-->
+	
     <header>
     	<div class="row-top">
         	<div class="main">
@@ -39,7 +39,7 @@
         </div>
     </header>
     
-	<!--==============================content================================-->
+	
     <section id="content"><div class="ic"></div>
         <div class="main">
             <div class="wrapper">
@@ -85,7 +85,7 @@ while($row=mysql_fetch_array($rs))
         </div>
     </section>
     
-	<!--==============================footer=================================-->
+	
     <footer>
         <div class="main">
         	<div class="aligncenter">
