@@ -14,7 +14,6 @@
 	
 </head>
 <body id="page6">
-	<!--==============================header=================================-->
     <header>
     	<div class="row-top">
         	<div class="main">
@@ -39,8 +38,6 @@
             </div>
         </div>
     </header>
-    
-	<!--==============================content================================-->
     <section id="content"><div class="ic"></div>
         <div class="main">
             <div class="wrapper">
@@ -75,7 +72,7 @@ if((mysql_num_rows($r))==0)
 	<?php }
 else
 {
-	// $rs1=mysql_query("select *from restraunt.order where r_id='".$id."' and status=1",$con);
+	
 while($row1=mysql_fetch_array($r))
 {
 	$it=$row1['r_id'];
@@ -96,8 +93,6 @@ while($row1=mysql_fetch_array($r))
 </div>
         </div>
     </section>
-    
-	<!--==============================footer=================================-->
     <footer>
         <div class="main">
         	<div class="aligncenter">
