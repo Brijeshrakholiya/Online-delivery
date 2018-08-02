@@ -25,11 +25,10 @@ $t=$row['type'];
 
 if((strcmp($unam,$uname)==0)&&(strcmp($password,$pass)==0))
 {
-
 echo "success";
 echo $t;
 if($t==0)
-{   session_start();
+{session_start();
 
 		$_SESSION['name']=$unam;
 		$_SESSION['type']=0;
@@ -41,7 +40,6 @@ if($t==1)
 		$_SESSION['type']=1;
 	header("Location: hotel_user.php");
 }
-
 if($t==2)
 {session_start();
 		$_SESSION['name']=$unam;
@@ -49,8 +47,6 @@ if($t==2)
 	header("Location: user.php");
 }
 }
-
-
 }
 mysql_close($con);
 ?>
