@@ -14,20 +14,22 @@
     <script src="js/FF-cash.js" type="text/javascript"></script>  
 	
 </head>
+	//body
 <body id="page6">
-	
+	//header
     <header>
 	    //menu
     	<div class="row-top">
         	<div class="main">
             	<div class="wrapper">
                 	<h1><a href="index.html">Catering<span>.com</span></a></h1>
-                    <nav>
-                        <ul class="menu">
+                   
+			<nav>
+                        
+			    <ul class="menu">
                             <li><a href="index.html">About</a></li>
                             <li><a href="menu.php">Menu</a></li>
-                            <li><a class="active" href="contact.html">Contact</a></li>
-                        </ul>
+				<li><a class="active" href="contact.html">Contact</a></li></ul>
                     </nav>
                 </div>
             </div>
@@ -50,7 +52,8 @@
                     <form id="contact-form" method="post" enctype="multipart/form-data" action="comp_add.php">                    
                         <fieldset>
 				//complaint_part
-                        <?php 
+                        <?php
+//session_start				
 session_start();
 $un=$_SESSION['name'];
 
@@ -68,6 +71,7 @@ while($row=mysql_fetch_array($rs))
 	$n=$row['cname'];
 }
 ?>
+				//label
                               <label><span class="text-form">Your Name:</span><input name="name" type="text" value="<?php echo $n;?>" /></label>
                              
                               <div class="wrapper">
@@ -96,6 +100,7 @@ while($row=mysql_fetch_array($rs))
             </div>
         </div>
     </footer>
+	//footer_script
     <script type="text/javascript"> Cufon.now(); </script>
 </body>
 </html>
