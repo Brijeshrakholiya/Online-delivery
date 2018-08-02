@@ -20,8 +20,9 @@ header("Location:login.html");
 else
 {
 ?></head>
+	//body
 <body id="page6">
-	
+	//header
     <header>
     	<div class="row-top">
                         &nbsp;&nbsp;<a href="logout.php"><strong>Logout</strong></a>
@@ -51,7 +52,7 @@ else
         </div>
     </header>
     
-	
+//content_id	
     <section id="content"><div class="ic"></div>
         <div class="main">
             <div class="wrapper">
@@ -83,7 +84,7 @@ else
         </div>
     </section>
     
-
+//footer_main_class
     <footer>
         <div class="main">
         	<div class="aligncenter">
