@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	//title
     <title>Contact</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
@@ -16,6 +17,7 @@
 <body id="page6">
 	
     <header>
+	    //menu
     	<div class="row-top">
         	<div class="main">
             	<div class="wrapper">
@@ -47,6 +49,7 @@
                 	<h3 class="p1">Review/Complaint Form</h3>
                     <form id="contact-form" method="post" enctype="multipart/form-data" action="comp_add.php">                    
                         <fieldset>
+				//complaint_part
                         <?php 
 session_start();
 $un=$_SESSION['name'];
