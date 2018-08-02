@@ -26,7 +26,9 @@ if (!mysql_query($sql,$con))
   die('Error: ' . mysql_error());
   }
 else
-{?>	<script> alert("Saved");</script>
+{?>	<script> 
+	alert("Saved");
+	</script>
 	<?php header("Location:user.php");
 }?>
 </body>
