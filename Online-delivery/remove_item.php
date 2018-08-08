@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
+	
 <head>
     <title>Contact</title>
     <meta charset="utf-8">
@@ -14,7 +15,10 @@
 	
 </head>
 <body id="page6">
-	<!--==============================header=================================-->
+	
+	
+	
+	
     <header>
     	<div class="row-top">
         	<div class="main">
@@ -40,7 +44,9 @@
         </div>
     </header>
     
-	<!--==============================content================================-->
+	
+	
+	
     <section id="content"><div class="ic"></div>
         <div class="main">
             <div class="wrapper">
@@ -78,7 +84,10 @@ while($row1=mysql_fetch_array($rs1))
         </div>
     </section>
     
-	<!--==============================footer=================================-->
+	
+	
+	
+	
     <footer>
         <div class="main">
         	<div class="aligncenter">
