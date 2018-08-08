@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+	
     <title>admin</title>
+	
     <meta charset="utf-8">
+	
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen"> 
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="js/cufon-yui.js" type="text/javascript"></script>
     <script src="js/cufon-replace.js" type="text/javascript"></script> 
+	
     <script src="js/Dynalight_400.font.js" type="text/javascript"></script>
+	
     <script src="js/FF-cash.js" type="text/javascript"></script>  
 	
 
 </head>
 <body id="page6">
-	<!--==============================header=================================-->
+	
+	
+	
     <header>
     	<div class="row-top">
                         
@@ -46,7 +53,9 @@
         </div>
     </header>
     
-	<!--==============================content================================-->
+	
+	
+	
     <section id="content"><div class="ic"></div>
         <div class="main">
         <div class="wrapper">
@@ -70,7 +79,9 @@ if (!$con)
         <?php }?></table></article></div></div>
     </section>
     
-	<!--==============================footer=================================-->
+	
+	
+	
     <footer>
         <div class="main">
         	<div class="aligncenter">
