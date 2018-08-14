@@ -17,8 +17,8 @@ session_start();
 if(empty($_SESSION['name'])){
 header("Location:login.html");
 }
-else
-{
+	else
+	{
 ?></head>
 	//body
 <body id="page6">
@@ -64,7 +64,6 @@ else
                             <table><tr>
                               <td><input type="button" class="button-1" value="Review registration" onClick="location.href='review.php'"></td></tr>
                             </table>
-                            
                         </dl>
                     </div>
                 </article>
@@ -75,8 +74,8 @@ else
                               <label><span class="text-form">Name:</span><input name="name" type="text" value="ADMIN" readonly /></label>
                               <label><span class="text-form">Email:</span><input name="email" type="text" value="admin@fudla.com" readonly /></label>                              
                               
-                                </div>
-                              </div>                            
+                               </div>     
+			    </div>
                         </fieldset>						
                     </form>
                 </article>
